@@ -1,0 +1,61 @@
+
+nav li{
+    padding: 12px;
+}
+
+.active{
+    background-color: #E5CCFF;
+    font-weight: bold;
+    border: 5px solid #4C0099;
+
+}
+
+
+.page{
+    background-color: #CCCCFF;
+    font-family:'Raleway';
+    display: block;
+}
+
+img{
+    border: solid #FFCCFF 5px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 10px;
+
+}
+
+header{
+    background-color: #E5CCFF;
+}
+
+
+h1{
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+
+img:hover:nth-child(2n){
+    
+    filter:sepia();
+    border: solid; 
+ } 
+
+ footer{
+     background-color: #E5CCFF;
+     padding: 32px 8px;
+ }
+
+ a.skip {
+    font-family: cursive;
+    text-decoration: none;
+ }
+
+img{
+    animation: move 5s ease;
+}
+ @keyframes move {
+    from {width: 25px; opacity: 0;}
+    to {width: 200px; opacity: 1;}
+  }
