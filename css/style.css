@@ -1,12 +1,16 @@
 
 nav li{
     padding: 12px;
+
 }
+
+
 
 .active{
     background-color: #E5CCFF;
     font-weight: bold;
     border: 5px solid #4C0099;
+
 
 }
 
@@ -15,6 +19,7 @@ nav li{
     background-color: #CCCCFF;
     font-family:'Raleway';
     display: block;
+
 }
 
 img{
@@ -27,12 +32,14 @@ img{
 
 header{
     background-color: #E5CCFF;
+
 }
 
 
 h1{
     font-size: 24px;
     margin: 12px 0;
+    
 }
 
 
@@ -45,6 +52,10 @@ img:hover:nth-child(2n){
  footer{
      background-color: #E5CCFF;
      padding: 32px 8px;
+ }
+
+ body{
+    background-image:  url("../images/purpcloud.jpg");
  }
 
  a.skip {
