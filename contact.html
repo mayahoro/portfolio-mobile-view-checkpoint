@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/plane.ico">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <script src="https://kit.fontawesome.com/d498aa3fee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Contact Me!</title>
+</head>
+<body>
+    <main>
+        <header>
+
+            <nav>
+                <ul>
+                    <!-- Since I am on the index file I added class = action to the link to index. -->
+                    <li class="page"><a href = "index.html" >Main Page</a></li>
+                    <li class="page"><a href = "costarica.html">Costa Rica</a></li>
+                    <li class="page" ><a href = "barcelona.html">Barcelona</a></li>
+                    <li class="page"><a href = "cancun.html">Cancun</a></li>
+                    <li class="active"><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 id="main">Contact Me!</h1>
+            </header>
+
+        <form
+        action="https://formspree.io/f/myyoppbz"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="email" placeholder="Enter email here">
+        </label>
+        <br>
+        <br>
+        <label>
+          Your name:
+          <input type="name" name="name" placeholder="Enter your name">    
+        </label>
+        <br>
+        <br>
+        <label>
+            Your Phone Number:
+            <input type="number" name="number" placeholder="Enter your #">    
+          </label>
+          <br>
+          <br>
+          <label>
+             Questions?:
+             <textarea name="message" placeholder="Type your response here"></textarea>  
+          </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+    </main>
+</body>
+</html>
