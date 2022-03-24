@@ -4,20 +4,22 @@ nav li{
 
 }
 
+.skip{
+    display: hidden;
+}
+
 
 
 .active{
     background-color: #E5CCFF;
     font-weight: bold;
     border: 5px solid #4C0099;
-
-
 }
 
 
 .page{
     background-color: #CCCCFF;
-    font-family:'Raleway';
+    font-family:'Raleway', serif;
     display: block;
 
 }
@@ -27,24 +29,29 @@ img{
     padding: 3px;
     margin: 2px;
     border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
 
 }
 
 header{
-    background-color: #E5CCFF;
+    font-weight: bold;
 
 }
 
 
 h1{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
     font-size: 24px;
     margin: 12px 0;
     
 }
 
 
+
 img:hover:nth-child(2n){
-    
     filter:sepia();
     border: solid; 
  } 
@@ -55,7 +62,7 @@ img:hover:nth-child(2n){
  }
 
  body{
-    background-image:  url("../images/purpcloud.jpg");
+    background-image:  url("../images/marbleback.jpg");
  }
 
  a.skip {
@@ -63,10 +70,23 @@ img:hover:nth-child(2n){
     text-decoration: none;
  }
 
-img{
+ /*
+ img:nth-last-child(2n){
+    animation: move 5s ease;
+}
+*/
+
+
+h1{
     animation: move 5s ease;
 }
  @keyframes move {
-    from {width: 25px; opacity: 0;}
-    to {width: 200px; opacity: 1;}
+    from {width: 500px; opacity: 0;}
+    to {width: 500px; opacity: 1;}
+  }
+
+  @media screen and (prefers-reduced-motion: reduce){
+    h1{
+        animation:none;
+    }
   }
